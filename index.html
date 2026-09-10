@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aziz Holdings | Global Educational & Academic Group</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Google Fonts (Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            gold: {
+              400: '#D4AF37',
+              500: '#C5A028',
+              600: '#A38018',
+            },
+            navy: {
+              800: '#111B2E',
+              900: '#0B132B',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .bg-grid-pattern {
+      background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-white min-h-screen flex flex-col justify-between overflow-x-hidden">
+
+  <!-- Background Ambient Glows -->
+  <div class="fixed top-0 left-1/4 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-50 pointer-events-none -z-10 animate-pulse"></div>
+  <div class="fixed bottom-0 right-1/4 w-[30rem] h-[30rem] bg-amber-100 rounded-full blur-3xl opacity-50 pointer-events-none -z-10"></div>
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3.5 group">
+        <img 
+          src="Assets/Aziz Holding Logo.png" 
+          alt="Aziz Holding Logo" 
+          class="h-12 w-auto object-contain rounded-full shadow-md group-hover:scale-105 transition-transform duration-300"
+        />
+        <div class="flex flex-col">
+          <span class="font-extrabold text-xl tracking-tight text-navy-900 group-hover:text-gold-600 transition-colors">AZIZ HOLDINGS</span>
+          <span class="text-[10px] tracking-widest uppercase font-semibold text-slate-400">Parent Organization</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+        <a href="index.html" class="text-navy-900 font-bold border-b-2 border-gold-500 pb-1">Home</a>
+        <a href="about.html" class="hover:text-navy-900 transition-colors pb-1">About Us</a>
+        <a href="portfolio.html" class="hover:text-navy-900 transition-colors pb-1">Portfolio</a>
+        <a href="careers.html" class="hover:text-navy-900 transition-colors pb-1">Careers</a>
+        <a href="contact.html" class="hover:text-navy-900 transition-colors pb-1">Contact Us</a>
+      </nav>
+
+      <a href="portfolio.html" class="px-5 py-2.5 rounded-full bg-navy-900 hover:bg-navy-800 text-white text-xs font-bold tracking-wide uppercase shadow-lg shadow-navy-900/10 hover:shadow-navy-900/20 transition-all transform hover:-translate-y-0.5">
+        Explore Portfolio
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-16 pb-20 md:pt-24 md:pb-28 bg-grid-pattern">
+    <div class="max-w-5xl mx-auto px-6 text-center" data-aos="fade-up" data-aos-duration="1000">
+      
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold uppercase tracking-wider mb-8 shadow-sm">
+        <span class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></span>
+        Global Educational & Academic Conglomerate
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl font-black text-navy-900 tracking-tight leading-tight mb-6">
+        Fostering Academic Excellence & <span class="bg-clip-text text-transparent bg-gradient-to-r from-navy-900 via-gold-600 to-amber-600">Global Innovation</span>
+      </h1>
+
+      <p class="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-10">
+        Aziz Holdings unites world-class educational consultancies, 24/7 academic support platforms, and premier learning institutions under one unified vision for global success.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="portfolio.html" class="px-8 py-4 rounded-xl bg-gradient-to-r from-navy-900 to-navy-800 text-white font-bold text-sm shadow-xl shadow-navy-900/20 hover:shadow-2xl hover:scale-105 transition-all">
+          Explore Holdings
+        </a>
+        <a href="contact.html" class="px-8 py-4 rounded-xl bg-white border border-slate-200 text-slate-700 font-bold text-sm shadow-sm hover:bg-slate-50 hover:border-slate-300 transition-all">
+          Corporate Inquiries
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Metrics Bar -->
+  <section class="bg-navy-900 text-white py-12 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div data-aos="fade-up" data-aos-delay="100">
+        <p class="text-3xl sm:text-4xl font-extrabold text-gold-400">50,000+</p>
+        <p class="text-xs uppercase tracking-wider text-slate-400 mt-1">Students Guided</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <p class="text-3xl sm:text-4xl font-extrabold text-gold-400">24 / 7</p>
+        <p class="text-xs uppercase tracking-wider text-slate-400 mt-1">Academic Assistance</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="300">
+        <p class="text-3xl sm:text-4xl font-extrabold text-gold-400">3+</p>
+        <p class="text-xs uppercase tracking-wider text-slate-400 mt-1">Active Subsidiaries</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="400">
+        <p class="text-3xl sm:text-4xl font-extrabold text-gold-400">100%</p>
+        <p class="text-xs uppercase tracking-wider text-slate-400 mt-1">Commitment to Quality</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ventures Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-gold-600 mb-2">Portfolio Overview</h2>
+        <h3 class="text-3xl sm:text-4xl font-extrabold text-navy-900">Current Ventures & Expansion</h3>
+        <p class="text-slate-500 mt-3 text-sm">Empowering students from foundational schooling to higher education research worldwide.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- PACS Card -->
+        <div class="group bg-slate-50 hover:bg-white border border-slate-200 hover:border-gold-500/40 rounded-3xl p-6 flex flex-col justify-between transition-all duration-300 hover:shadow-xl" data-aos="fade-up" data-aos-delay="100">
+          <div>
+            <div class="h-20 w-full flex items-center justify-start mb-4 border-b border-slate-200/80 pb-4">
+              <img src="Assets/PACS Logo.png" alt="PACS Logo" class="h-14 w-auto object-contain" />
+            </div>
+            <span class="px-2.5 py-1 rounded-md bg-blue-100 text-blue-800 text-[10px] font-bold uppercase">Consultancy</span>
+            <h4 class="text-xl font-bold text-navy-900 mt-2 mb-2">PACS</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-4">University admissions, study abroad programs, thesis, research SOPs, and career advisement.</p>
+          </div>
+          <a href="https://pacs.azizholdings.org" target="_blank" class="text-xs font-bold text-navy-900 hover:text-gold-600 flex items-center gap-1">Visit Site &rarr;</a>
+        </div>
+
+        <!-- GradeBoost Pro Card -->
+        <div class="group bg-slate-50 hover:bg-white border border-slate-200 hover:border-emerald-500/40 rounded-3xl p-6 flex flex-col justify-between transition-all duration-300 hover:shadow-xl" data-aos="fade-up" data-aos-delay="200">
+          <div>
+            <div class="h-20 w-full flex items-center justify-start mb-4 border-b border-slate-200/80 pb-4">
+              <img src="Assets/GradeBoost Pro Logo.png" alt="GradeBoost Pro Logo" class="h-14 w-auto object-contain" />
+            </div>
+            <span class="px-2.5 py-1 rounded-md bg-emerald-100 text-emerald-800 text-[10px] font-bold uppercase">24/7 Support</span>
+            <h4 class="text-xl font-bold text-navy-900 mt-2 mb-2">GradeBoost Pro</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-4">Round-the-clock student assistance, coursework guidance, dissertations, and research papers.</p>
+          </div>
+          <a href="https://gradeboostpro.azizholdings.org" target="_blank" class="text-xs font-bold text-navy-900 hover:text-gold-600 flex items-center gap-1">Visit Site &rarr;</a>
+        </div>
+
+        <!-- Rahes Academy Card -->
+        <div class="group bg-slate-50 hover:bg-white border border-slate-200 hover:border-blue-500/40 rounded-3xl p-6 flex flex-col justify-between transition-all duration-300 hover:shadow-xl" data-aos="fade-up" data-aos-delay="300">
+          <div>
+            <div class="h-20 w-full flex items-center justify-start mb-4 border-b border-slate-200/80 pb-4">
+              <img src="Assets/RAHES ACADEMY Logo.png" alt="Rahes Academy Logo" class="h-14 w-auto object-contain rounded-md" />
+            </div>
+            <span class="px-2.5 py-1 rounded-md bg-amber-100 text-amber-800 text-[10px] font-bold uppercase">Nursery - BBA</span>
+            <h4 class="text-xl font-bold text-navy-900 mt-2 mb-2">Rahes Academy</h4>
+            <p class="text-slate-600 text-xs leading-relaxed mb-4">Premier educational academy in Lahore providing holistic schooling and undergraduate prep.</p>
+          </div>
+          <a href="https://rahesacademy.azizholdings.org" target="_blank" class="text-xs font-bold text-navy-900 hover:text-gold-600 flex items-center gap-1">Visit Site &rarr;</a>
+        </div>
+
+        <!-- Coming Soon Card -->
+        <div class="group bg-gradient-to-br from-navy-900 to-slate-900 text-white border border-navy-800 rounded-3xl p-6 flex flex-col justify-between shadow-xl relative overflow-hidden" data-aos="fade-up" data-aos-delay="400">
+          <div class="absolute -right-6 -top-6 w-24 h-24 bg-gold-500/10 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="h-20 w-full flex items-center justify-start mb-4 border-b border-slate-800 pb-4">
+              <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/20 border border-gold-500/30 text-gold-400 text-[10px] font-bold uppercase">
+                <span class="w-1.5 h-1.5 rounded-full bg-gold-400 animate-ping"></span>
+                Incubation
+              </span>
+            </div>
+            <h4 class="text-xl font-bold text-white mb-2">Many More Coming Soon</h4>
+            <p class="text-slate-400 text-xs leading-relaxed mb-4">We are actively developing new ventures in AI EdTech, executive certification, and online learning portals.</p>
+          </div>
+          <a href="portfolio.html" class="text-xs font-bold text-gold-400 hover:text-white flex items-center gap-1">Explore Vision &rarr;</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Investor & Partner Callout -->
+  <section class="py-16 bg-slate-100 border-t border-slate-200">
+    <div class="max-w-5xl mx-auto px-6 bg-navy-900 rounded-3xl p-10 text-center text-white relative overflow-hidden shadow-2xl" data-aos="zoom-in">
+      <h3 class="text-2xl sm:text-3xl font-extrabold mb-4">Partner or Invest with Aziz Holdings</h3>
+      <p class="text-slate-300 text-sm max-w-2xl mx-auto mb-8">
+        We collaborate with educational institutions, technology providers, and investors to expand access to high-quality education globally.
+      </p>
+      <a href="contact.html" class="inline-block px-8 py-3.5 rounded-xl bg-gold-500 hover:bg-gold-600 text-navy-900 font-extrabold text-xs tracking-wider uppercase transition-all shadow-lg">
+        Initiate Partnership Discussion
+      </a>
+    </div>
+  </section>
+
+  <!-- Corporate Footer -->
+  <footer class="bg-navy-900 text-white pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="Assets/Aziz Holding Logo.png" alt="Aziz Holding Logo" class="h-10 w-auto rounded-full" />
+            <span class="font-extrabold text-xl tracking-tight text-white">AZIZ HOLDINGS</span>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed max-w-md">
+            Connecting educational innovation with global standards. Parent organization governing PACS, GradeBoost Pro, Rahes Academy, and upcoming ventures.
+          </p>
+        </div>
+
+        <div>
+          <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Quick Navigation</h5>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="portfolio.html" class="hover:text-white transition-colors">Portfolios</a></li>
+            <li><a href="careers.html" class="hover:text-white transition-colors">Careers</a></li>
+            <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Corporate Inquiries</h5>
+          <p class="text-sm text-slate-300 mb-2">Official Email:</p>
+          <a href="mailto:info@azizholdings.org" class="text-sm text-amber-300 font-semibold hover:underline">info@azizholdings.org</a>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>&copy; 2026 Aziz Holdings. All rights reserved.</p>
+        <p>Built for GitHub Pages Deployment</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 800 });
+  </script>
+</body>
+</html>
