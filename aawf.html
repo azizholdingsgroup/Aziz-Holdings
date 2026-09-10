@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aziz Ahmed Welfare Foundation | Aziz Holdings</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] },
+          colors: {
+            gold: { 400: '#D4AF37', 500: '#C5A028', 600: '#A38018' },
+            navy: { 800: '#111B2E', 900: '#0B132B' }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .bg-grid-pattern {
+      background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-white min-h-screen flex flex-col justify-between overflow-x-hidden">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3.5 group">
+        <img src="Assets/Aziz Holding Logo.png" alt="Aziz Holding Logo" class="h-12 w-auto object-contain rounded-full shadow-md group-hover:scale-105 transition-transform duration-300" />
+        <div class="flex flex-col">
+          <span class="font-extrabold text-xl tracking-tight text-navy-900 group-hover:text-gold-600 transition-colors">AZIZ HOLDINGS</span>
+          <span class="text-[10px] tracking-widest uppercase font-semibold text-slate-400">Parent Organization</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+        <a href="index.html" class="hover:text-navy-900 transition-colors pb-1">Home</a>
+        <a href="about.html" class="hover:text-navy-900 transition-colors pb-1">About Us</a>
+        <a href="portfolio.html" class="hover:text-navy-900 transition-colors pb-1">Portfolio</a>
+        <a href="aawf.html" class="text-navy-900 font-bold border-b-2 border-gold-500 pb-1">Foundation</a>
+        <a href="careers.html" class="hover:text-navy-900 transition-colors pb-1">Careers</a>
+        <a href="contact.html" class="hover:text-navy-900 transition-colors pb-1">Contact Us</a>
+      </nav>
+
+      <a href="https://aawf.azizholdings.org/" target="_blank" class="px-5 py-2.5 rounded-full bg-gold-500 hover:bg-gold-600 text-navy-900 text-xs font-bold tracking-wide uppercase shadow-lg transition-all transform hover:-translate-y-0.5">
+        Foundation Portal
+      </a>
+    </div>
+  </header>
+
+  <!-- Memorial Banner & Hero -->
+  <section class="py-20 bg-grid-pattern border-b border-slate-200 text-center">
+    <div class="max-w-4xl mx-auto px-6" data-aos="fade-up">
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/80 border border-amber-300 text-amber-900 text-xs font-extrabold uppercase tracking-widest mb-6 shadow-sm">
+        In Remembrance of Chaudhry Aziz Ahmed
+      </div>
+      
+      <div class="flex justify-center mb-6">
+        <img src="Assets/Aziz Ahmed Welfare Foundation.png" alt="Aziz Ahmed Welfare Foundation Logo" class="h-28 w-auto object-contain" />
+      </div>
+
+      <h1 class="text-4xl sm:text-5xl font-black text-navy-900 mb-4">Aziz Ahmed Welfare Foundation</h1>
+      <p class="text-slate-600 text-lg max-w-2xl mx-auto leading-relaxed">
+        Carrying forward the vision, generosity, and community leadership of Chaudhry Aziz Ahmed through educational grants, youth empowerment, and humanitarian aid.
+      </p>
+    </div>
+  </section>
+
+  <!-- Memorial Message & Core Pillars -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 space-y-16">
+      
+      <!-- Memorial Tribute Block -->
+      <div class="bg-gradient-to-r from-navy-900 via-slate-900 to-navy-900 text-white rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden" data-aos="fade-up">
+        <div class="max-w-3xl">
+          <span class="text-xs font-bold uppercase tracking-widest text-gold-400 block mb-2">Honoring a Legacy</span>
+          <h2 class="text-3xl font-extrabold mb-4">In Remembrance of Chaudhry Aziz Ahmed</h2>
+          <p class="text-slate-300 text-sm leading-relaxed mb-6">
+            The Aziz Ahmed Welfare Foundation stands as a living tribute to the life, virtues, and commitment to service exemplified by Chaudhry Aziz Ahmed. Operating as the philanthropic wing of Aziz Holdings, the foundation is dedicated to breaking cycles of hardship by ensuring no deserving student is denied an education due to financial limits.
+          </p>
+          <a href="https://aawf.azizholdings.org/" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gold-500 text-navy-900 font-extrabold text-xs uppercase hover:bg-gold-600 transition-all">
+            Visit Foundation Web Portal (aawf.azizholdings.org) &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- Foundation Pillars -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200" data-aos="fade-up" data-aos-delay="100">
+          <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-xl mb-4">🎓</div>
+          <h3 class="text-xl font-bold text-navy-900 mb-2">Student Merit & Need Scholarships</h3>
+          <p class="text-slate-600 text-xs leading-relaxed">Full and partial tuition coverage for talented undergraduates, researchers, and school children from underprivileged backgrounds.</p>
+        </div>
+
+        <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200" data-aos="fade-up" data-aos-delay="200">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl mb-4">🤝</div>
+          <h3 class="text-xl font-bold text-navy-900 mb-2">Community & Family Welfare</h3>
+          <p class="text-slate-600 text-xs leading-relaxed">Emergency financial assistance, healthcare aid, and essential living support for families in need.</p>
+        </div>
+
+        <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200" data-aos="fade-up" data-aos-delay="300">
+          <div class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-800 flex items-center justify-center font-bold text-xl mb-4">📚</div>
+          <h3 class="text-xl font-bold text-navy-900 mb-2">Educational Infrastructure Grants</h3>
+          <p class="text-slate-600 text-xs leading-relaxed">Funding classroom upgrades, computer labs, and learning materials across partner educational institutions.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-900 text-white pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="Assets/Aziz Holding Logo.png" alt="Aziz Holding Logo" class="h-10 w-auto rounded-full" />
+            <span class="font-extrabold text-xl tracking-tight text-white">AZIZ HOLDINGS</span>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed max-w-md">Parent organization governing PACS, GradeBoost Pro, Rahes Academy, and the Aziz Ahmed Welfare Foundation.</p>
+        </div>
+        <div>
+          <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Navigation</h5>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="portfolio.html" class="hover:text-white transition-colors">Portfolios</a></li>
+            <li><a href="aawf.html" class="hover:text-white transition-colors">Welfare Foundation</a></li>
+            <li><a href="careers.html" class="hover:text-white transition-colors">Careers</a></li>
+            <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Foundation Domain</h5>
+          <a href="https://aawf.azizholdings.org/" target="_blank" class="text-sm text-amber-300 font-semibold hover:underline">aawf.azizholdings.org</a>
+        </div>
+      </div>
+      <div class="pt-8 text-xs text-slate-500 text-center">&copy; 2026 Aziz Holdings. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ once: true, duration: 800 });</script>
+</body>
+</html>
