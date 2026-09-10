@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Aziz Holdings</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] },
+          colors: {
+            gold: { 400: '#D4AF37', 500: '#C5A028', 600: '#A38018' },
+            navy: { 800: '#111B2E', 900: '#0B132B' }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .bg-grid-pattern {
+      background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-white min-h-screen flex flex-col justify-between overflow-x-hidden">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3.5 group">
+        <img src="Assets/Aziz Holding Logo.png" alt="Aziz Holding Logo" class="h-12 w-auto object-contain rounded-full shadow-md group-hover:scale-105 transition-transform duration-300" />
+        <div class="flex flex-col">
+          <span class="font-extrabold text-xl tracking-tight text-navy-900 group-hover:text-gold-600 transition-colors">AZIZ HOLDINGS</span>
+          <span class="text-[10px] tracking-widest uppercase font-semibold text-slate-400">Parent Organization</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+        <a href="index.html" class="hover:text-navy-900 transition-colors pb-1">Home</a>
+        <a href="about.html" class="text-navy-900 font-bold border-b-2 border-gold-500 pb-1">About Us</a>
+        <a href="portfolio.html" class="hover:text-navy-900 transition-colors pb-1">Portfolio</a>
+        <a href="careers.html" class="hover:text-navy-900 transition-colors pb-1">Careers</a>
+        <a href="contact.html" class="hover:text-navy-900 transition-colors pb-1">Contact Us</a>
+      </nav>
+
+      <a href="portfolio.html" class="px-5 py-2.5 rounded-full bg-navy-900 hover:bg-navy-800 text-white text-xs font-bold tracking-wide uppercase shadow-lg shadow-navy-900/10 hover:shadow-navy-900/20 transition-all transform hover:-translate-y-0.5">
+        Explore Portfolio
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Header -->
+  <section class="relative py-20 bg-grid-pattern border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-6 text-center" data-aos="fade-up">
+      <span class="px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold uppercase tracking-wider mb-4 inline-block">
+        Governance & Leadership
+      </span>
+      <h1 class="text-4xl sm:text-5xl font-black text-navy-900 mb-6 tracking-tight">Architects of Modern Educational Growth</h1>
+      <p class="text-lg text-slate-600 leading-relaxed">
+        Aziz Holdings operates as a parent entity offering strategic governance, resources, and innovation frameworks for world-class educational initiatives.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission & Vision Cards -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8" data-aos="fade-right">
+        <div class="w-12 h-12 rounded-2xl bg-gold-500/10 text-gold-600 flex items-center justify-center font-extrabold text-xl mb-6">01</div>
+        <h3 class="text-2xl font-bold text-navy-900 mb-4">Our Core Mission</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          To empower students, scholars, and institutions worldwide by delivering trusted academic advisory services, round-the-clock research support, and accessible high-caliber schooling environments from early childhood to undergraduate excellence.
+        </p>
+      </div>
+
+      <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8" data-aos="fade-left">
+        <div class="w-12 h-12 rounded-2xl bg-navy-900/10 text-navy-900 flex items-center justify-center font-extrabold text-xl mb-6">02</div>
+        <h3 class="text-2xl font-bold text-navy-900 mb-4">Our Global Vision</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          To build an interconnected global ecosystem of educational ventures that bridge borders, dissolve learning barriers, and establish benchmarks in global academic support and institutional quality.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Pillars -->
+  <section class="py-20 bg-slate-100 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-gold-600 mb-2">Guided Principles</h2>
+        <h3 class="text-3xl font-extrabold text-navy-900">What Defines Aziz Holdings</h3>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+          <h4 class="font-bold text-lg text-navy-900 mb-2">Uncompromising Integrity</h4>
+          <p class="text-slate-600 text-xs leading-relaxed">Prioritizing transparent guidance, authentic research help, and ethical governance across every subsidiary.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+          <h4 class="font-bold text-lg text-navy-900 mb-2">Student-Centric Focus</h4>
+          <p class="text-slate-600 text-xs leading-relaxed">Ensuring every solution—whether 24/7 online support or classroom teaching—puts student achievement first.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+          <h4 class="font-bold text-lg text-navy-900 mb-2">Continuous Innovation</h4>
+          <p class="text-slate-600 text-xs leading-relaxed">Constantly expanding into new educational technologies and incubation projects to meet modern learning needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-900 text-white pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="Assets/Aziz Holding Logo.png" alt="Aziz Holding Logo" class="h-10 w-auto rounded-full" />
+            <span class="font-extrabold text-xl tracking-tight text-white">AZIZ HOLDINGS</span>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed max-w-md">Connecting educational innovation with global standards.</p>
+        </div>
+        <div>
+          <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Navigation</h5>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="portfolio.html" class="hover:text-white transition-colors">Portfolios</a></li>
+            <li><a href="careers.html" class="hover:text-white transition-colors">Careers</a></li>
+            <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Corporate</h5>
+          <a href="mailto:info@azizholdings.org" class="text-sm text-amber-300 font-semibold hover:underline">info@azizholdings.org</a>
+        </div>
+      </div>
+      <div class="pt-8 text-xs text-slate-500 text-center">&copy; 2026 Aziz Holdings. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ once: true, duration: 800 });</script>
+</body>
+</html>
