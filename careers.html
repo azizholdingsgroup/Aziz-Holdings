@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers | Aziz Holdings</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] },
+          colors: {
+            gold: { 400: '#D4AF37', 500: '#C5A028', 600: '#A38018' },
+            navy: { 800: '#111B2E', 900: '#0B132B' }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .bg-grid-pattern {
+      background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-white min-h-screen flex flex-col justify-between overflow-x-hidden">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3.5 group">
+        <img src="Assets/Aziz Holding Logo.png" alt="Aziz Holding Logo" class="h-12 w-auto object-contain rounded-full shadow-md group-hover:scale-105 transition-transform duration-300" />
+        <div class="flex flex-col">
+          <span class="font-extrabold text-xl tracking-tight text-navy-900 group-hover:text-gold-600 transition-colors">AZIZ HOLDINGS</span>
+          <span class="text-[10px] tracking-widest uppercase font-semibold text-slate-400">Parent Organization</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+        <a href="index.html" class="hover:text-navy-900 transition-colors pb-1">Home</a>
+        <a href="about.html" class="hover:text-navy-900 transition-colors pb-1">About Us</a>
+        <a href="portfolio.html" class="hover:text-navy-900 transition-colors pb-1">Portfolio</a>
+        <a href="careers.html" class="text-navy-900 font-bold border-b-2 border-gold-500 pb-1">Careers</a>
+        <a href="contact.html" class="hover:text-navy-900 transition-colors pb-1">Contact Us</a>
+      </nav>
+
+      <a href="portfolio.html" class="px-5 py-2.5 rounded-full bg-navy-900 hover:bg-navy-800 text-white text-xs font-bold tracking-wide uppercase shadow-lg shadow-navy-900/10 hover:shadow-navy-900/20 transition-all transform hover:-translate-y-0.5">
+        Explore Portfolio
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Header -->
+  <section class="py-20 bg-grid-pattern border-b border-slate-200 text-center">
+    <div class="max-w-4xl mx-auto px-6" data-aos="fade-up">
+      <span class="px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold uppercase tracking-wider mb-4 inline-block">
+        Join Our Global Team
+      </span>
+      <h1 class="text-4xl sm:text-5xl font-black text-navy-900 mb-6">Shape the Future of Global Education</h1>
+      <p class="text-slate-600 text-lg">We are always seeking passionate educators, academic consultants, research advisors, and operations talent across our group.</p>
+    </div>
+  </section>
+
+  <!-- Open Roles & Application -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+      <!-- Featured Roles -->
+      <div data-aos="fade-right">
+        <h3 class="text-2xl font-bold text-navy-900 mb-6">Current Opportunities</h3>
+        
+        <div class="space-y-4">
+          <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:border-gold-500 transition-all">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="font-bold text-navy-900 text-lg">Academic Research & Advisory Specialist</h4>
+              <span class="px-2.5 py-1 bg-blue-100 text-blue-800 text-[10px] font-bold rounded-md uppercase">Remote / PACS</span>
+            </div>
+            <p class="text-slate-600 text-xs mb-3">Assist graduate students with university admission SOPs, thesis structuring, and research proposals.</p>
+            <span class="text-xs text-slate-400">Full-Time &bull; Global Remote</span>
+          </div>
+
+          <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:border-emerald-500 transition-all">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="font-bold text-navy-900 text-lg">24/7 Student Mentorship Coordinator</h4>
+              <span class="px-2.5 py-1 bg-emerald-100 text-emerald-800 text-[10px] font-bold rounded-md uppercase">Shift / GradeBoost Pro</span>
+            </div>
+            <p class="text-slate-600 text-xs mb-3">Coordinate real-time support requests and assign subject matter experts to university coursework tasks.</p>
+            <span class="text-xs text-slate-400">Full-Time / Part-Time &bull; Shift Based</span>
+          </div>
+
+          <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:border-amber-500 transition-all">
+            <div class="flex justify-between items-center mb-2">
+              <h4 class="font-bold text-navy-900 text-lg">Faculty & Subject Educator (Business/Undergrad)</h4>
+              <span class="px-2.5 py-1 bg-amber-100 text-amber-800 text-[10px] font-bold rounded-md uppercase">Lahore / Rahes Academy</span>
+            </div>
+            <p class="text-slate-600 text-xs mb-3">Deliver high-quality classroom coaching for foundational through undergraduate business curriculum.</p>
+            <span class="text-xs text-slate-400">On-Site &bull; Lahore Campus</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Application Form -->
+      <div class="bg-slate-50 border border-slate-200 p-8 rounded-3xl" data-aos="fade-left">
+        <h3 class="text-2xl font-bold text-navy-900 mb-2">Submit Your CV</h3>
+        <p class="text-slate-500 text-xs mb-6">Don't see an exact match? Apply to our General Talent Pool and our HR team will connect with you.</p>
+
+        <form action="#" method="POST" class="space-y-4" onsubmit="event.preventDefault(); alert('Application submitted! Our team will contact you soon.');">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Full Name</label>
+            <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-navy-900 bg-white" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Email Address</label>
+            <input type="email" required placeholder="john@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-navy-900 bg-white" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Target Venture</label>
+            <select class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-navy-900 bg-white">
+              <option>Aziz Holdings Parent Office</option>
+              <option>PACS</option>
+              <option>GradeBoost Pro</option>
+              <option>Rahes Academy</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">LinkedIn Profile or CV Link</label>
+            <input type="url" placeholder="https://linkedin.com/in/username" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-navy-900 bg-white" />
+          </div>
+
+          <button type="submit" class="w-full py-4 rounded-xl bg-navy-900 text-white font-bold text-xs uppercase hover:bg-navy-800 transition-all shadow-lg">
+            Submit Application
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-900 text-white pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="Assets/Aziz Holding Logo.png" alt="Aziz Holding Logo" class="h-10 w-auto rounded-full" />
+            <span class="font-extrabold text-xl tracking-tight text-white">AZIZ HOLDINGS</span>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed max-w-md">Connecting educational innovation with global standards.</p>
+        </div>
+        <div>
+          <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Navigation</h5>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="portfolio.html" class="hover:text-white transition-colors">Portfolios</a></li>
+            <li><a href="careers.html" class="hover:text-white transition-colors">Careers</a></li>
+            <li><a href="contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-xs font-bold uppercase tracking-wider text-gold-400 mb-4">Corporate</h5>
+          <a href="mailto:info@azizholdings.org" class="text-sm text-amber-300 font-semibold hover:underline">info@azizholdings.org</a>
+        </div>
+      </div>
+      <div class="pt-8 text-xs text-slate-500 text-center">&copy; 2026 Aziz Holdings. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ once: true, duration: 800 });</script>
+</body>
+</html>
